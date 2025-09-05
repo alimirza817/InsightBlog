@@ -1,77 +1,81 @@
-# Tech Chronicles
+# InsightBlog
 
-<!-- Project Description -->
-A simple blog project built with React.js, Redux, RTK Query, React Router, and Tailwind CSS. The project uses JSON Server as a mock API for data, allowing users to create, list, update, and delete blog posts.
+A modern, responsive personal blog built with React.js, Redux, RTK Query, React Router, and Tailwind CSS.  
+This project allows users to **create, view, update, and delete blog posts** while managing categories through a mock API using JSON Server.
 
-<!-- Project Screenshot -->
-![Project image](https://raw.githubusercontent.com/diina-gh/react-blog/main/public/images/rb-image1.png?token=GHSAT0AAAAAACEVCDSNWDCQI4CXXLH253XEZGHT3DQ)
+---
 
-<!-- Table of Contents -->
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Screenshots](#Screenshots)
+- [Author](#Author) 
 
-<!-- Features -->
+---
+
 ## Features
-- User-friendly interface for creating, updating, and deleting blog posts.
-- Seamless data fetching with RTK Query hooks.
-- Responsive design.
-- Categories data are also managed through the API.
+- User-friendly interface for managing blog posts (Create, Read, Update, Delete).  
+- Seamless data fetching with RTK Query hooks.  
+- Responsive layout with a clean card-based design.  
+- Category-based filtering for posts.  
+- Search functionality to find posts by title.  
 
-<!-- Demo -->
+---
 
-## Demo
-Check out the live demo [https://react-blog-mocha.vercel.app/](https://react-blog-mocha.vercel.app/).
 
-<!-- Getting Started -->
 ## Getting Started
-To run the project locally, follow these steps:
 
-1. Clone the repository:
+Follow these steps to run the project locally:
 
-```bash
-git clone https://github.com/diina-gh/react-blog.git
-cd react-blog
-```
+1. Clone this repository:
 
-2. Install dependencies:
+   git clone https://github.com/alimirza817/InsightBlog.git
+   
+   cd InsightBlog
+   
+3. **Install Dependencies**
+   Using npm:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm install
-```
-
-3. Install JSON Server globaly:
-
-```bash
-npm install -g json-server
-```
-
-4. Start the development server:
-
-```bash
-npm run start:dev
-```
-
-Open your browser and go to http://localhost:3000 to view the app.
-
-<!-- Technologies Used -->
+4. **Install JSON Server globaly:**
+   ```bash
+   npm install -g json-server
+   ```
+  
+5. **Open the App in Your Browser**
+   Visit [http://localhost:3000](http://localhost:3000) to view the project.
+---
 ## Technologies Used
 
-1. React.js with TypeScript
-2. Redux and RTK Query for state management
-3. React Router for navigation
-4. Tailwind CSS for styling
-5. JSON Server as the mock API
+- React.js with TypeScript
 
-## Contributing
+- Redux and RTK Query for state management
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please create a pull request or open an issue.
+- React Router for navigation
 
-## Authors
-Seydina GUEYE - Initial work
+- Tailwind CSS for styling
 
+- JSON Server as a mock API
+---
+## 📸 Screenshots
+<img width="1365" height="688" alt="image" src="https://github.com/user-attachments/assets/eb22fc94-8a41-49fc-b202-eff0a9fb02d8" />
+<img width="1365" height="688" alt="image" src="https://github.com/user-attachments/assets/04a6f6a4-8cee-4ad9-828a-52d3bf7150c9" />
+<img width="1360" height="645" alt="image" src="https://github.com/user-attachments/assets/b34dfd43-5f2e-4ae4-bdc1-1b113966786e" />
+
+---
+## 👤 Author
+
+- Muhammad Ali Mirza
+
+- GitHub: @alimirza817
+
+- Email: muhammadalimirza817@gmail.com
+
+- Internship: Elevello Pathways
+
+---
 
 
